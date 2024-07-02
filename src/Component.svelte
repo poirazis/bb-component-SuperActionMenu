@@ -6,6 +6,7 @@
 
   export let text;
   export let icon = "ri-more-fill";
+
   export let menuItems;
   export let disabled;
 
