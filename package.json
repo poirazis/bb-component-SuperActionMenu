@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "An Action Menu Component for Budibase",
   "license": "MIT",
+  "author": "Michael Poirazi",
   "svelte": "index.js",
   "module": "dist/plugin.min.js",
   "scripts": {

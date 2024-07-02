@@ -3,14 +3,30 @@
   "metadata": {},
   "schema": {
     "name": "bb-component-SuperActionMenu",
-    "friendlyName": "bb-component-SuperActionMenu",
+    "friendlyName": "Super Action Menu",
     "description": "An Action Menu Component for Budibase",
-    "icon": "Text",
+    "icon": "MoreCircle",
     "settings": [
       {
         "type": "text",
         "key": "text",
         "label": "Text"
+      },
+      {
+        "type": "icon",
+        "key": "icon",
+        "label": "Icon",
+        "defaultValue": "ri-more-fill"
+      },
+      {
+        "type": "boolean",
+        "key": "disabled",
+        "label": "Disabled"
+      },
+      {
+        "type": "buttonConfiguration",
+        "key": "menuItems",
+        "label": "Menu Items"
       }
     ]
   }
