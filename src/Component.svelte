@@ -29,9 +29,11 @@
       on:click={handleMenu}
     >
       <i class={icon} />
-
       {#if text}
-        <span class="spectrum-ActionButton-label">{text}</span>
+        <span
+          class="spectrum-ActionButton-label"
+          style:padding-left={icon ? "0.5rem" : "0rem"}>{text}</span
+        >
       {/if}
     </button>
 
@@ -54,7 +56,7 @@
             ></BlockComponent>
           {/each}
         {:else}
-          Define Some Menu Action Items
+          <p>No Actions Defined</p>
         {/if}
       </div>
     </SuperPopover>
